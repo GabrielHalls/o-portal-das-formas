@@ -80,16 +80,21 @@ header h1 {
   height: auto;
 }
 
+.image img{
+  width: 18%;
+  height: 18%;
+}
+
 .inputs input {
   display: block;
-  margin: 30px auto 0;
+  margin: 10px auto 0;
   border-radius: 5px;
-  width: 100%;
+  width: 10%;
   max-width: 200px;
   height: 45px;
   border: 4px solid #000000;
   box-shadow: 4px 4px 0px #000000;
-  padding: 0 10px;
+  padding: 0 25px;
   font-size: 15px;
   font-family: "Kanit", sans-serif;
   transition: 0.3s;
@@ -109,4 +114,5 @@ button {
   box-shadow: 4px 4px 0px #000000;
   font-family: "Kanit", sans-serif;
   font-size: 15px;
+  cursor: pointer;
 }
