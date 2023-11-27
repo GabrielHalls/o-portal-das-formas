@@ -1,0 +1,137 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Portal das Formas | Circulo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <h1>Forma Geométrica <span>Trapezoide Irregular</span>!</h1>
+    </div>
+    <a href="../index.html" class="voltar">Voltar</a>
+  </header>
+
+  <main>
+    <p>onde os quatro lados têm diferentes comprimentos. Teremos que aplicar fórmulas de geometria mais avançadas para
+      chegar à área correta.</p>
+    <form>
+      <div class="form">
+        <label>
+          Raio
+          <input type="number" id="raio" placeholder="Raio">
+        </label>
+
+        <label>
+          PI
+          <input type="text" id="pi" value="3,14" disabled>
+        </label>
+      </div>
+
+      <div class="btn">
+        <input class="btn-form" type="button" value="Calcular" onclick="calcularArea();">
+      </div>
+    </form>
+
+    <div class="res">
+      <h3 id="resultado"></h3>
+    </div>
+
+
+  </main>
+
+  <script>
+    function calcularArea() {
+      var baseMaior = parseFloat(document.getElementById("baseMaior").value);
+      var baseMenor = parseFloat(document.getElementById("baseMenor").value);
+      var altura = parseFloat(document.getElementById("altura").value);
+
+      var area = ((baseMaior + baseMenor) / 2) * altura;
+
+      document.getElementById("resultado").innerHTML = "Área: " + area;
+    }
+  </script>
+
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O Portal das Formas | Trapézio Irregular</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <h1>Forma Geométrica <span>Trapezoide Irregular</span>!</h1>
+    </div>
+    <a href="../index.html" class="voltar">Voltar</a>
+  </header>
+
+  <main>
+    <p>onde os quatro lados têm diferentes comprimentos. Teremos que aplicar fórmulas de geometria mais avançadas para
+      chegar à área correta.</p>
+    <form>
+      <div class="form">
+        <label>
+          Base Maior
+          <input type="number" id="baseMaior" placeholder="Base Maior">
+        </label>
+
+        <label>
+          Base Menor
+          <input type="number" id="baseMenor" placeholder="Base Menor">
+        </label>
+
+        <label>
+          Altura
+          <input type="number" id="altura" placeholder="Altura">
+        </label>
+      </div>
+
+      <div class="btn">
+        <!-- Adiciona o evento onclick e chama a função calcularArea() -->
+        <input class="btn-form" type="button" value="Calcular" onclick="calcularArea();">
+      </div>
+    </form>
+
+    <div class="res">
+      <!-- o ID para "resultado" -->
+      <h3 id="resultado"></h3>
+    </div>
+  </main>
+
+  <script>
+    function calcularArea() {
+      var baseMaior = parseFloat(document.getElementById("baseMaior").value);
+      var baseMenor = parseFloat(document.getElementById("baseMenor").value);
+      var altura = parseFloat(document.getElementById("altura").value);
+
+      var area = ((baseMaior + baseMenor) / 2) * altura;
+
+      // ID para "resultado"
+      document.getElementById("resultado").innerHTML = "Área: " + area;
+    }
+  </script>
+</body>
+
+</html>
