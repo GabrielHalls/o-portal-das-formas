@@ -110,7 +110,7 @@ footer {
 }
  */
 
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -122,7 +122,7 @@ body {
   padding: 0px 200px;
   display: flex;
   flex-direction: column;
-  background-color:rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255)
 }
 
 h1 {
@@ -132,20 +132,22 @@ h1 {
   color: rgb(0, 0, 0);
 }
 
-h2{
+h2 {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 40px;
 
 }
-.Subtitulo{
+
+.Subtitulo {
   text-align: center;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: large;
   margin-bottom: 40px;
-  
+
 }
-.geometric-shapes .box{
+
+.geometric-shapes .box {
 
   width: 100%;
   display: flex;
@@ -161,7 +163,7 @@ h2{
 }
 
 .name-shape {
-text-align: center;
+  text-align: center;
 }
 
 .shape img {
@@ -170,14 +172,19 @@ text-align: center;
   object-fit: contain;
   transition: .3s;
   filter: drop-shadow(var(--color-black) -10px 10px 5px);
-  
+
 }
 
-.title{font-size: 40px;}
+.title {
+  font-size: 40px;
+}
 
-.voltar{text-align: left; float: right;}
+.voltar {
+  text-align: left;
+  float: right;
+}
 
-.voltar{
+.voltar {
   padding: 8px 24px;
   cursor: pointer;
   font-weight: 600;
@@ -191,17 +198,17 @@ text-align: center;
 }
 
 .voltar:hover {
-    box-shadow: 0 0 0;
-    transform: translate(-5px);
+  box-shadow: 0 0 0;
+  transform: translate(-5px);
 }
 
 
-footer{
+footer {
   padding: 20px 0px;
   text-align: center;
 }
 
- form input {
+form input {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #0a0a0a;
@@ -213,5 +220,3 @@ footer{
   cursor: pointer;
   box-shadow: 4px 4px 0px #000000;
 }
-
-
